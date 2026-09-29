@@ -1,9 +1,10 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,30,Bỏ sót người đi bộ nhỏ ở xa trên trục giữa hoặc nhầm bóng cây/vạch kẻ đường thành chướng ngại vật,Vùng quan sát chính phía trước khi xe chạy thẳng; mật độ vật thể cao nhưng hình học ít biến dạng ở trung tâm FOV
+front,hard,20,Chói lóa ngược sáng mạnh (mặt trời lặn/đèn pha ban đêm) và giọt nước mưa bám kính; vật thể cắt ngang ở tốc độ tương đối cao,Đánh giá độ nhạy phát hiện trong điều kiện chiếu sáng khắc nghiệt và bảo đảm an toàn phanh khẩn cấp phía trước
+rear,normal,25,Nhận diện sai khoảng cách vật thể phía sau khi lùi xe hoặc phân loại nhầm phương tiện bám đuôi,Đảm bảo độ tin cậy cơ bản cho tác vụ lùi chuồng và đỗ xe tự động trong điều kiện thông thoáng
+rear,hard,25,Đèn pha xe sau rọi thẳng gây mù cảm biến ban đêm; bụi bẩn/bùn đất bám bề mặt kính sau; chướng ngại vật thấp sát cản sau,Camera sau chịu bẩn nhiều nhất và rủi ro va chạm điểm mù cản sau là nguy cơ tai nạn nghiêm trọng khi lùi
+left,normal,25,Nhận diện thiếu xe vượt song song hoặc ước lượng sai biên dạng do méo phối cảnh nhẹ ở sườn xe,Giám sát làn liền kề bên lái và lề đường trong các kịch bản giữ làn và chuyển làn tiêu chuẩn
+left,hard,25,Méo radial cực đại ở mép kính (zone edge); vật thể cắt qua vùng seam chồng lấn với cam front/rear; thân xe ego che một phần,Đánh giá khả năng bù trừ méo fisheye biên và độ khớp boundary box tại các góc seam trước-trái và sau-trái
+right,normal,25,Ước lượng sai khoảng cách mép vỉa hè (curb) hoặc bỏ sót người đi bộ/xe đạp sát mép đường bên phụ,Giám sát điểm mù bên phụ và hành lang lề đường trong điều kiện lái xe ban ngày thông thường
+right,hard,25,Méo rìa fisheye cực lớn; xe hai bánh đi sát sườn lọt vào vùng seam góc trước-phải và sau-phải; bóng râm gương chiếu hậu,Bên phụ có nguy cơ va chạm cao với xe đạp/xe máy len lỏi tại vùng seam và méo rìa khi rẽ phải hoặc cặp lề
+

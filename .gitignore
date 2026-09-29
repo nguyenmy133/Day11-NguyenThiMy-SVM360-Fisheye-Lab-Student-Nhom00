@@ -4,3 +4,8 @@ build/
 .[e]nv
 __pycache__/
 *.pyc
+doctor.txt
+download_zip.py
+Day11*.html
+job_*.zip
+.~lock.*

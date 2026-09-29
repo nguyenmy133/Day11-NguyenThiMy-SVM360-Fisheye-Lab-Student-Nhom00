@@ -3,20 +3,20 @@
 ## 1. Thông tin nhóm
 - Khóa/lớp: K4
 - Tên nhóm: Nhom00
-- Repo Public: [Link KX-DAY11-TenNhom]
+- Repo Public: https://github.com/banglc-vinaiinaction/K4-DAY11-Nhom00
 - Máy giữ hồ sơ chính / người quản lý: Lê Chí Bằng
 - Slice chung lấy từ mode.json: B2-mid
 - Tên định danh vai A dùng cho --self: bang
-- Kênh trao đổi nội bộ: [Điền]
-- Đại diện nộp (vai C): Nguyễn Thị My, 2A202602061
+- Kênh trao đổi nội bộ: Discord, Zalo
+- Đại diện nộp (vai C): Lê Chí Bằng, 2A202602215
 - Commit chốt bài: [SHA hoặc URL commit]
 
 ## 2. Ba vai chính
 | Vai | Họ và tên | MSSV | Tên định danh trong mode | Trách nhiệm | Bằng chứng đóng góp |
 |---|---|---|---|---|---|
-| A · Gán nhãn | Lê Chí Bằng | 2A202602215 | bang | Parking/C0/slice, self-QC, lock, rework | [Link file/commit và mô tả phần đã làm] |
-| B · QA độc lập | Nguyễn Minh Đức | 2A202602114 | duc | Review trước reference, finding QA, kiểm lại ca sửa | [Link file/commit và mô tả phần đã làm] |
-| C · Chẩn đoán & điều phối | Nguyễn Thị My | 2A202602061 | my | Báo cáo, phân xử, kế hoạch, tích hợp, check và nộp | [Link file/commit và mô tả phần làm] |
+| A · Gán nhãn | Lê Chí Bằng | 2A202602215 | bang | Parking/C0/slice, self-QC, lock, rework | submission/r1_craft/ |
+| B · QA độc lập | Nguyễn Thị My | 2A202602061 | my | Review trước reference, finding QA, kiểm lại ca sửa | submission/r2_qa/qa_review.md |
+| C · Chẩn đoán & điều phối | Lê Chí Bằng, Nguyễn Minh Đức | 2A202602215, 2A202602114 | bang, duc | Báo cáo, phân xử, kế hoạch, tích hợp, check và nộp | submission/r3_diag/, 45_sampling_plan.csv |
 
 Bảng này xác định vai của nhóm. Vòng QA tự sinh trong team.json thuộc quy trình nhiều hồ sơ của CLI; nhóm dùng một slice chung và quy trình A → B → C đã nêu trong hướng dẫn.
 
@@ -24,8 +24,8 @@ Bảng này xác định vai của nhóm. Vòng QA tự sinh trong team.json thu
 | Mốc | Người giao → nhận | File / commit / mã khóa | Người nhận đã kiểm gì? | Trạng thái / vướng mắc |
 |---|---|---|---|---|
 | P0 · Chốt môi trường và vai | C → A, B | [mode.json, slice, phân vai] | [Điền] | [Điền] |
-| P2 · Khóa bản đầu | A → B, C | [XML, lock.txt, slice, code, commit] | [Điền] | [Điền] |
-| P3 · Chốt QA mù | B → C, A | [review, findings, ảnh, commit] | [Điền] | [Điền] |
+| P2 · Khóa bản đầu | A → B, C | submission/r1_craft/lock.txt, B2-mid, mã khóa 3928-E99C | Đã tự soát self-QC 9 mục | Khóa thành công (26 boxes, 10 polys) |
+| P3 · Chốt QA mù | B → C, A | qa_review.md, 3 findings QA, 2 screenshots | Đã đối chiếu luật R01/R04/R05 | Chốt QA thành công (My phát hiện xe 3 bánh mờ ở Frame 2) |
 | P4 · Quyết định sửa | C → A, B | [finding, decision log, commit] | [Điền] | [Điền] |
 | P5 · Kiểm bản sửa | A → B → C | [v2, lock2, review kiểm lại, delta] | [Điền] | [Điền] |
 | P6 · Chốt nộp | A, B → C | [manifest, commit chốt] | [Điền] | [Điền] |
