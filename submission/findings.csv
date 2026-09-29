@@ -5,45 +5,45 @@ calib,C0,adasind_019560.jpg,R6,na,MISSING,E1_annotator_error,P1,annotator,R01,B�
 r2_qa,B2-mid,adasind_102750.jpg,L5,L_only,MISSING,,P1,qa,R01,Xe ba bánh ThreeWheeler hơi mờ ở x=252 y=900 H=44.8px đạt ngưỡng R01 cần bổ sung,rework,v1.0.0,QA My phát hiện vật thể mờ ở xa bị bỏ sót
 r2_qa,B2-mid,adasind_102750.jpg,L3,L_only,WRONG_CLASS,,P1,qa,R04,Xe sát mép trái x=0 y=840 cần đối chiếu hình thái đầu xe giữa ThreeWheeler và Truck,keep_with_reason,v1.0.0,Nghi ngờ nhầm lẫn class theo R04
 r2_qa,B2-mid,adasind_086220.jpg,L5,L_only,BOX_GEOMETRY,,P2,qa,R01,Bike hậu cảnh x=311 y=991 H=37px sát ngưỡng 40px,keep_with_reason,v1.0.0,Cần rà soát lại chiều cao đối tượng theo R01
-r1_craft,B2-mid,adasind_086220.jpg,L4+R1,na,ATTRIBUTE,,,,,,,,
-r1_craft,B2-mid,adasind_086220.jpg,L2,na,SPURIOUS,,,,,,,,
-r1_craft,B2-mid,adasind_086220.jpg,L5,na,SPURIOUS,,,,,,,,
-r1_craft,B2-mid,adasind_086220.jpg,R4,na,MISSING,,,,,,,,
-r1_craft,B2-mid,adasind_102750.jpg,L7+R1,na,ATTRIBUTE,,,,,,,,
-r1_craft,B2-mid,adasind_102750.jpg,L2,na,SPURIOUS,,,,,,,,
-r1_craft,B2-mid,adasind_102750.jpg,L3+R2,na,WRONG_CLASS,,,,,,,,
-r1_craft,B2-mid,adasind_102750.jpg,L5,na,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_060000.jpg,L2+R1,LR_noM,MISSING,,,,,,,,
-r3_diag,B2-mid,adasind_060000.jpg,L4+R3,LR_noM,MISSING,,,,,,,,
-r3_diag,B2-mid,adasind_060000.jpg,L8+R9,LR_noM,MISSING,,,,,,,,
-r3_diag,B2-mid,adasind_060000.jpg,L10+R4,LR_noM,MISSING,,,,,,,,
-r3_diag,B2-mid,adasind_060000.jpg,L7+R8,LR_noM,MISSING,,,,,,,,
-r3_diag,B2-mid,adasind_060000.jpg,L5+R2,LR_noM,MISSING,,,,,,,,
-r3_diag,B2-mid,adasind_060000.jpg,M2,M_only,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_060000.jpg,M3,M_only,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_060000.jpg,M7,M_only,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_060000.jpg,M9,M_only,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_060000.jpg,M10,M_only,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_060000.jpg,M11,M_only,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_060000.jpg,M12,M_only,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_086220.jpg,L4+R1,LR_noM,MISSING,,,,,,,,
-r3_diag,B2-mid,adasind_086220.jpg,L1+R5,LR_noM,MISSING,,,,,,,,
-r3_diag,B2-mid,adasind_086220.jpg,L2+M8,LM_noR,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_086220.jpg,L5,L_only,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_086220.jpg,R4,R_only,MISSING,,,,,,,,
-r3_diag,B2-mid,adasind_086220.jpg,M2,M_only,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_086220.jpg,M3,M_only,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_086220.jpg,M5,M_only,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_086220.jpg,M6,M_only,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_086220.jpg,M7,M_only,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_102750.jpg,L6+R4,LR_noM,MISSING,,,,,,,,
-r3_diag,B2-mid,adasind_102750.jpg,L1+R3,LR_noM,MISSING,,,,,,,,
-r3_diag,B2-mid,adasind_102750.jpg,L2,L_only,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_102750.jpg,L3,L_only,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_102750.jpg,L5,L_only,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_102750.jpg,R2+M2,RM_noL,MISSING,,,,,,,,
-r3_diag,B2-mid,adasind_102750.jpg,M3,M_only,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_102750.jpg,M4,M_only,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_102750.jpg,M5,M_only,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_102750.jpg,M6,M_only,SPURIOUS,,,,,,,,
-r3_diag,B2-mid,adasind_102750.jpg,M7,M_only,SPURIOUS,,,,,,,,
+r1_craft,B2-mid,adasind_086220.jpg,L4+R1,na,ATTRIBUTE,E1_annotator_error,P2,annotator,R05,L4 để occluded=false trong khi R1 có occluded=true do bị xe phía trước che một phần,rework,v1.0.0,Sửa thuộc tính occluded theo R05
+r1_craft,B2-mid,adasind_086220.jpg,L2,na,SPURIOUS,E1_annotator_error,P2,annotator,R01,Box L2 có chiều cao H=34px nhỏ hơn ngưỡng R01 quy định,rework,v1.0.0,Xóa box dưới ngưỡng H=40px theo R01
+r1_craft,B2-mid,adasind_086220.jpg,L5,na,SPURIOUS,E1_annotator_error,P2,annotator,R01,Box L5 có H=37px sát ngưỡng 40px ở hậu cảnh xa,keep_with_reason,v1.0.0,Giữ lại kèm giải trình vật thể sát ngưỡng
+r1_craft,B2-mid,adasind_086220.jpg,R4,na,MISSING,E1_annotator_error,P1,annotator,R01,Bỏ sót người đi bộ R4 tại x=480 y=850 H=46px đạt ngưỡng,rework,v1.0.0,Bổ sung box Pedestrian đạt ngưỡng H=46px
+r1_craft,B2-mid,adasind_102750.jpg,L7+R1,na,ATTRIBUTE,E1_annotator_error,P2,annotator,R05,L7 để truncated=false trong khi vật nằm sát viền kính fisheye,rework,v1.0.0,Sửa truncated=true theo R05
+r1_craft,B2-mid,adasind_102750.jpg,L2,na,SPURIOUS,E1_annotator_error,P2,annotator,R01,Box L2 có H=32px dưới ngưỡng quy định,rework,v1.0.0,Loại bỏ box không đủ chiều cao R01
+r1_craft,B2-mid,adasind_102750.jpg,L3+R2,na,WRONG_CLASS,E0_reference_defect,P1,guideline,R04,L3 gắn ThreeWheeler dựa trên buồng lái 3 bánh reference R2 gắn Truck,escalate,v1.0.0,Escalate làm rõ tiêu chí phân biệt ThreeWheeler và Truck
+r1_craft,B2-mid,adasind_102750.jpg,L5,na,SPURIOUS,E1_annotator_error,P2,annotator,R01,Vật thể L5 H=35px nhỏ hơn ngưỡng quy định do QA đề xuất,keep_with_reason,v1.0.0,Giữ lại có giải thích do QA đề xuất bổ sung
+r3_diag,B2-mid,adasind_060000.jpg,L2+R1,LR_noM,MISSING,E4_model_domain,P2,ai_team,R01,Model YOLO26m bỏ sót đối tượng dù L và R đều phát hiện rõ trên ảnh,keep_with_reason,v1.0.0,Lỗi model do lệch miền dữ liệu fisheye
+r3_diag,B2-mid,adasind_060000.jpg,L4+R3,LR_noM,MISSING,E4_model_domain,P2,ai_team,R01,Model bỏ sót xe ThreeWheeler rõ ràng giữa ảnh,keep_with_reason,v1.0.0,Model missing vật thể lớn
+r3_diag,B2-mid,adasind_060000.jpg,L8+R9,LR_noM,MISSING,E4_model_domain,P2,ai_team,R01,Model bỏ sót Pedestrian L8+R9,keep_with_reason,v1.0.0,Model không nhận diện được người đi bộ
+r3_diag,B2-mid,adasind_060000.jpg,L10+R4,LR_noM,MISSING,E4_model_domain,P2,ai_team,R01,Model bỏ sót xe hai bánh Bike,keep_with_reason,v1.0.0,Model missing vật thể xe máy
+r3_diag,B2-mid,adasind_060000.jpg,L7+R8,LR_noM,MISSING,E4_model_domain,P2,ai_team,R01,Model bỏ sót người đi bộ L7+R8,keep_with_reason,v1.0.0,Model missing Pedestrian
+r3_diag,B2-mid,adasind_060000.jpg,L5+R2,LR_noM,MISSING,E4_model_domain,P2,ai_team,R01,Model bỏ sót xe ô tô L5+R2,keep_with_reason,v1.0.0,Model missing Car
+r3_diag,B2-mid,adasind_060000.jpg,M2,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,Model phát hiện box giả trên nền đường mà L và R đều không có,keep_with_reason,v1.0.0,Mô hình dự đoán sai trên nền nhiễu
+r3_diag,B2-mid,adasind_060000.jpg,M3,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,Model nhận diện nhầm bóng đổ thành phương tiện,keep_with_reason,v1.0.0,Model spurious do bóng đổ
+r3_diag,B2-mid,adasind_060000.jpg,M7,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,Model nhận diện box trùng lặp ở trung tâm,keep_with_reason,v1.0.0,Dự đoán thừa của model
+r3_diag,B2-mid,adasind_060000.jpg,M9,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,Model dự đoán box sai ở vùng rìa,keep_with_reason,v1.0.0,Model spurious ở vùng rìa
+r3_diag,B2-mid,adasind_060000.jpg,M10,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,Model phát hiện box ảo ở góc dưới,keep_with_reason,v1.0.0,Dự đoán sai trên mép ảnh
+r3_diag,B2-mid,adasind_060000.jpg,M11,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,Model tạo box trùng lặp cho xe ba bánh,keep_with_reason,v1.0.0,Model duplicate box
+r3_diag,B2-mid,adasind_060000.jpg,M12,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,Model tạo box trùng lặp cho người đi bộ,keep_with_reason,v1.0.0,Model duplicate box
+r3_diag,B2-mid,adasind_086220.jpg,L4+R1,LR_noM,MISSING,E4_model_domain,P2,ai_team,R01,Model bỏ sót vật thể hợp lệ được cả L và R ghi nhận,keep_with_reason,v1.0.0,Model missing vật thể
+r3_diag,B2-mid,adasind_086220.jpg,L1+R5,LR_noM,MISSING,E4_model_domain,P2,ai_team,R01,Model bỏ sót vật thể L1+R5 ở cự ly xa,keep_with_reason,v1.0.0,Model missing
+r3_diag,B2-mid,adasind_086220.jpg,L2+M8,LM_noR,SPURIOUS,E0_reference_defect,P2,data_ops,R01,Cả người và model đều thấy box L2/M8 nhưng reference thiếu,keep_with_reason,v1.0.0,Nghi ngờ reference bỏ sót đối tượng
+r3_diag,B2-mid,adasind_086220.jpg,L5,L_only,SPURIOUS,E1_annotator_error,P2,annotator,R01,Chỉ người vẽ box H=37px dưới ngưỡng R01,keep_with_reason,v1.0.0,Box annotator vẽ thêm sát ngưỡng
+r3_diag,B2-mid,adasind_086220.jpg,R4,R_only,MISSING,E1_annotator_error,P1,annotator,R01,Người và model đều bỏ sót R4 người đi bộ H=46px,rework,v1.0.0,Cần bổ sung ở vòng rework
+r3_diag,B2-mid,adasind_086220.jpg,M2,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,Model dự đoán thừa do bóng đổ và nhiễu mặt đường,keep_with_reason,v1.0.0,Model spurious
+r3_diag,B2-mid,adasind_086220.jpg,M3,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,Model tạo box trùng lặp trên thân xe khác,keep_with_reason,v1.0.0,Model spurious
+r3_diag,B2-mid,adasind_086220.jpg,M5,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,Model nhận diện nhầm chi tiết cây cối ven đường,keep_with_reason,v1.0.0,Model spurious
+r3_diag,B2-mid,adasind_086220.jpg,M6,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,Model phát hiện sai ở góc cong mép kính,keep_with_reason,v1.0.0,Model spurious
+r3_diag,B2-mid,adasind_086220.jpg,M7,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,Model tạo box ảo không có vật thể thực,keep_with_reason,v1.0.0,Model spurious
+r3_diag,B2-mid,adasind_102750.jpg,L6+R4,LR_noM,MISSING,E4_model_domain,P2,ai_team,R01,Model bỏ sót vật thể L6/R4 ở cự ly trung bình,keep_with_reason,v1.0.0,Model missing
+r3_diag,B2-mid,adasind_102750.jpg,L1+R3,LR_noM,MISSING,E4_model_domain,P2,ai_team,R01,Model bỏ sót vật thể L1/R3 rõ nét,keep_with_reason,v1.0.0,Model missing
+r3_diag,B2-mid,adasind_102750.jpg,L2,L_only,SPURIOUS,E1_annotator_error,P2,annotator,R01,Box L2 chỉ có người vẽ chiều cao nhỏ H<40px,rework,v1.0.0,Loại bỏ ở vòng rework
+r3_diag,B2-mid,adasind_102750.jpg,L3,L_only,SPURIOUS,E0_reference_defect,P1,guideline,R04,L3 gắn ThreeWheeler không match với R2 Truck do lệch class,escalate,v1.0.0,Escalate bất đồng nhãn giữa người và reference
+r3_diag,B2-mid,adasind_102750.jpg,L5,L_only,SPURIOUS,E1_annotator_error,P2,annotator,R01,Box L5 xe ba bánh mờ do QA phát hiện,keep_with_reason,v1.0.0,Giữ lại có ghi chú
+r3_diag,B2-mid,adasind_102750.jpg,R2+M2,RM_noL,MISSING,E0_reference_defect,P1,guideline,R04,Reference và model gán Truck cho đối tượng rìa trái L3,escalate,v1.0.0,Escalate cùng ca L3
+r3_diag,B2-mid,adasind_102750.jpg,M3,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,Model tạo box thừa ở vùng rìa cong và nhiễu nền,keep_with_reason,v1.0.0,Model spurious
+r3_diag,B2-mid,adasind_102750.jpg,M4,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,Model nhận diện sai vệt bóng trên đường,keep_with_reason,v1.0.0,Model spurious
+r3_diag,B2-mid,adasind_102750.jpg,M5,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,Model duplicate box cho xe lớn,keep_with_reason,v1.0.0,Model duplicate
+r3_diag,B2-mid,adasind_102750.jpg,M6,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,Model nhận diện nhầm chi tiết nền tĩnh,keep_with_reason,v1.0.0,Model spurious
+r3_diag,B2-mid,adasind_102750.jpg,M7,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,Model tạo box ảo ở mép vòng kính,keep_with_reason,v1.0.0,Model spurious

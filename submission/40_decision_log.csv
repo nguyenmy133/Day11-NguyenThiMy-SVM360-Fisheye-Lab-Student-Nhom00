@@ -1,1 +1,5 @@
 id,date,question,decision,rationale,status
+D1,2026-09-29,"Vạch phân chia ô đỗ xe vs vạch lối đi trong bãi","Chỉ vẽ 2 vạch chia ô đỗ xe tiền cảnh và 1 polygon free_space","Vạch lối đi giữa hai dãy ô đỗ có vai trò dẫn luồng giao thông không phải vạch phân chia ô đỗ theo R11",accepted
+D2,2026-09-29,"Quy tắc người dắt xe hai bánh vs người ngồi lái","Gộp người ngồi lái vào Bike; tách riêng người dắt xe thành 1 Pedestrian và 1 Bike","Tuân thủ quy ước R03 để đảm bảo tính nhất quán của bộ dữ liệu",accepted
+D3,2026-09-29,"Xử lý các box có chiều cao H < 40px","Loại bỏ toàn bộ box có chiều cao dưới 40px trên ảnh fisheye gốc","Tuân thủ nghiêm ngặt quy tắc R01 để giảm false positives ở cự ly quá xa",accepted
+D4,2026-09-29,"Phân loại vật thể sát mép trái Frame 2 giữa ThreeWheeler và Truck (vật thể L3/R2)","Chuyển lên Guideline / Lead phân xử","Vật thể bị méo quang học nặng ở rìa cong thấu kính; phần đầu có kết cấu 3 bánh nhưng phần thùng chở hàng tương tự xe tải nhỏ cần làm rõ quy chuẩn R04",escalated
